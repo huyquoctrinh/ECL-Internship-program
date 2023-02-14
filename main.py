@@ -126,8 +126,6 @@ def extract_full(src, dst):
             except:
                 continue
     
-
-if __name__ == "__main__":
-    src = "./Memory_Trinh/"
-    dst = "./final_data/"
-    extract_full(src, dst)
+src = "./Memory_Trinh/"
+dst = "./final_data/"
+extract_full(src, dst)
