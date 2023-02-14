@@ -125,7 +125,10 @@ def extract_full(src, dst):
                 extract_csv(extract_src + "/"+csv_file, extract_src + "/"+event_file, dst)
             except:
                 continue
-    
+ 
+# Execution and start extracting
+
+print("Start extracting ...")
 src = "./Memory_Trinh/"
 dst = "./final_data/"
 extract_full(src, dst)
